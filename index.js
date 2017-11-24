@@ -6,6 +6,9 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
+// types of socket broadcasts
+// TODO: add to documentaiton
+
 //socket.emit - only self
 //io.emit - all
 //io.sockets.emit - untested - all
